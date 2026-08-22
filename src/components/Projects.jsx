@@ -13,7 +13,7 @@ function WorkflowSteps({ steps, isOpen }) {
         <div
           key={`step-${i}`}
           className={`workflow-step-item ${isOpen ? 'workflow-step-visible' : ''}`}
-          style={{ transitionDelay: isOpen ? `${i * 0.08}s` : '0s' }}
+          style={{ transitionDelay: isOpen ? `${i * 0.3}s` : '0s' }}
         >
           {/* Connector: karakter > */}
           {i < steps.length - 1 && (
