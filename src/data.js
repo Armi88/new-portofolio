@@ -178,7 +178,7 @@ export const projects = [
       Libraries: ['Flutter', 'TensorFlow Lite', 'Roboflow', 'Google Colab', 'GetX'],
       'Algorithms & Methods': ['YOLOv12n', 'Transfer Learning', 'Data Augmentation', 'Object Detection'],
     },
-    image: 'public/iPhone 16 Pro.png', // Masukkan path gambar misal: '/caries.png' atau URL gambar
+    image: '/iPhone 16 Pro.png',
   },
   {
     id: 2,
@@ -208,7 +208,7 @@ export const projects = [
       'Algorithms & Methods': ['Flutter'],
       Tools: ['Figma', 'Android Studio', 'VS Code'],
     },
-    image: 'public/Nothing Phone 1.png',
+    image: '/Nothing Phone 1.png',
   },
   {
     id: 3,
@@ -240,7 +240,7 @@ export const projects = [
       'Algorithms & Methods': ['CodeIgniter 3, MySQL, Tailwind CSS'],
       Tools: ['VS Code', 'Figma'],
     },
-    image: 'public/macbook-air-2022-2.png', // Masukkan path gambar misal: '/parking.png' atau URL gambar
+    image: '/macbook-air-2022-2.png',
   },
   {
     id: 4,
@@ -270,7 +270,7 @@ export const projects = [
       Tools: ['GitHub Pages Deployment'],
     },
 
-    image: 'public/MacBook Air (2022).png',
+    image: '/MacBook Air (2022).png',
   },
   {
     id: 5,
@@ -299,7 +299,7 @@ export const projects = [
       Languages: ['HTML', 'CSS', 'JavaScript'],
       Tools: ['Figma'],
     },
-    image: 'public/Dell XPS.png', // Masukkan path gambar misal: '/energy.png' atau URL gambar
+    image: '/Dell XPS.png',
   },
   {
     id: 6,
@@ -328,7 +328,7 @@ export const projects = [
       'Algorithms & Methods': ['Asset Optimization', 'Responsive Layout Design'],
       Tools: ['React.js', 'Express'],
     },
-    image: 'src/components/Aseets/images.jpg', // Masukkan path gambar misal: '/kai.png' atau URL gambar
+    image: '/images.jpg',
     emoji: '🚂',
   },
 ];

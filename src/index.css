@@ -603,11 +603,12 @@ body {
   right: -1.5rem;
   bottom: -3.8rem;
   width: 195px;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(24px);
-  border: 2px solid rgba(29, 111, 235, 0.35);
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
   border-radius: 18px;
-  box-shadow: 0 16px 36px rgba(10, 22, 40, 0.18), 0 4px 12px rgba(29, 111, 235, 0.15);
+  box-shadow: 0 16px 36px rgba(10, 22, 40, 0.15), 0 4px 12px rgba(29, 111, 235, 0.1), inset 0 1px 0 rgba(255,255,255,0.8);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -638,7 +639,7 @@ body {
   color: #0A1628;
   padding: 0.52rem 0.85rem;
   border-bottom: 1px solid rgba(29, 111, 235, 0.12);
-  opacity: 0.75;
+  opacity: 0.8;
   transition: all 0.2s ease;
   cursor: pointer;
   white-space: nowrap;
@@ -654,7 +655,7 @@ body {
   opacity: 1;
   font-weight: 800;
   color: #1D6FEB;
-  background: #EFF6FF;
+  background: rgba(29, 111, 235, 0.08);
 }
 
 .hero-bottom {
@@ -1012,8 +1013,8 @@ body {
 
 .about-heading-underline {
   height: 4px;
-  width: min(500px, 70%);
-  background: linear-gradient(90deg, #38BDF8 0%, #1D6FEB 50%, #7B2FBE 100%);
+  width: min(5000px, 76%);
+  background: linear-gradient(90deg,#1fd9e2  0%, #1D6FEB 50%, #38BDF8 70%, #0D1F3C 100%);
   border-radius: 2px;
   margin-bottom: 1rem;
 }
@@ -1497,6 +1498,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  width: 100%;
 }
 
 .project-card {
@@ -1630,7 +1632,7 @@ body {
 }
 
 .project-card-body.open {
-  max-height: 1400px;
+  max-height: 4000px;
 }
 
 .project-card-body-inner {
@@ -2749,6 +2751,10 @@ body {
   /* Projects Mobile */
   .projects {
     padding: 4rem 0;
+  }
+
+  .projects-list {
+    gap: 0.85rem;
   }
 
   .projects-filter {

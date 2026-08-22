@@ -46,7 +46,7 @@ export default function Marquee() {
             </h2>
 
             <div className="bio-intro-tags">
-              <span className="bio-tag">Information Systems Undergraduate</span>
+              <span className="bio-tag">Information Systems Fresh graduate</span>
               <span className="bio-tag">Research &amp; Development</span>
               <span className="bio-tag">Web Developer</span>
               <span className="bio-tag">Data Analyst</span>
@@ -55,7 +55,7 @@ export default function Marquee() {
             </div>
 
             <p className="bio-intro-desc">
-              Information Systems undergraduate at Universitas Gunadarma.
+              Information Systems Fresh graduate at Universitas Gunadarma.
               Aspiring Software Engineer passionate about developing innovative software
               through cutting-edge technology and software development. 
             </p>

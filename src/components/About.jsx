@@ -49,7 +49,7 @@ const statCards = [
 const narrativeSections = [
   {
     heading: 'WHO I AM',
-    text: "I'm Varian Armi, an Information Systems undergraduate at Gunadarma University with a GPA of 3.74. I'm driven by a passion for building systems that are not only functional but also impactful — blending logical thinking with creative problem-solving.",
+    text: "I'm Varian Armi, an Information Systems Fresh graduate at Gunadarma University with a GPA of 3.74. I'm driven by a passion for building systems that are not only functional but also impactful — blending logical thinking with creative problem-solving.",
   },
   {
     heading: 'WHAT MOTIVATES ME',
@@ -135,7 +135,7 @@ export default function About() {
           </div>
           <h2 className="about-heading">The person behind the data.</h2>
           <div className="about-heading-underline" />
-          <p className="about-subheading">Turning curiosity into data-driven solutions.</p>
+          <p className="about-subheading">Transforming curiosity into measurable solutions through data and technology.</p>
         </div>
 
         <div className="about-body">

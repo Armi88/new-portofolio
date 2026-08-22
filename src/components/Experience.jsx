@@ -15,6 +15,7 @@ export default function Experience() {
             Activities &amp; <span>Experience</span>
           </h2>
           <div className="about-heading-underline" />
+          <p className="about-subheading">Leadership, Communication, and job certification training that emerge when you step away from the screen.</p>
         </div>
 
         <div className="experience-grid">
@@ -68,15 +69,16 @@ export default function Experience() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem' }}>
             <div>
               <div style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1rem', fontWeight: 700, color: '#1E0B3A' }}>
-                Universitas Negeri Surabaya (UNESA)
+                Universitas Gunadarma
               </div>
               <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898', marginTop: '0.25rem' }}>
-                Bachelor of Data Science · 2022 – Present
+                Bachelor of Information Systems · 2022 – 2026
               </div>
               <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898' }}>
-                GPA: 3.84 / 4.00 · International Track
+                GPA: 3.74 / 4.00
               </div>
             </div>
+            {/* HIDDEN — hapus komentar ini untuk menampilkan kembali badge sertifikasi
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'flex-start' }}>
               {[
                 'Python for Data Science – Dicoding',
@@ -100,6 +102,7 @@ export default function Experience() {
                 </div>
               ))}
             </div>
+            */}
           </div>
         </div>
 

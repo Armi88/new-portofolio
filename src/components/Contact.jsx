@@ -47,8 +47,8 @@ export default function Contact() {
               Something <span>Together</span>
             </h2>
             <p className="contact-desc">
-              I'm currently available for internships, freelance projects, and collaborations
-              in web development, data science, machine learning, and analytics. Feel free to reach out!
+              I’m currently open to career opportunities, freelance projects, and collaborations in web development, 
+              data analytics, machine learning, and information systems. Feel free to reach out and connect!
             </p>
           </div>
 

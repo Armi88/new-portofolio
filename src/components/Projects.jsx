@@ -283,6 +283,7 @@ export default function Projects() {
             Case <span>Studies</span> &amp; Projects
           </h2>
           <div className="about-heading-underline" />
+          <p className="about-subheading">Every case study below reflects actual academic work — the problem, the approach, and what was learned. Click any project to read the full breakdown.</p>
         </div>
 
         {/* ── Filter pills ── */}

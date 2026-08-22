@@ -1,12 +1,12 @@
 import React from 'react';
 
 const techStack = [
-  { name: 'Next.js', symbol: '▲' },
-  { name: 'TypeScript', symbol: 'TS' },
-  { name: 'Tailwind CSS', symbol: '↗' },
-  { name: 'Framer Motion', symbol: '◎' },
-  { name: 'React Bits', symbol: '⬡' },
-  { name: 'Vercel', symbol: '▼' },
+  { name: 'React', symbol: '⚛' },
+  { name: 'JavaScript', symbol: 'JS' },
+  { name: 'HTML5', symbol: '🌐' },
+  { name: 'CSS3', symbol: '🎨' },
+  { name: 'Vite', symbol: '⚡' },
+  { name: 'GitHub Pages', symbol: '🐙' },
 ];
 
 export default function Footer() {
@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="footer-identity">
             <h3 className="footer-name">Varian Armi</h3>
             <p className="footer-subtitle">
-              Data Science Undergraduate · UNESA · Surabaya
+              Information Systems Fresh graduate · Universitas Gunadarma · Depok
             </p>
           </div>
 
