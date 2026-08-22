@@ -178,14 +178,13 @@ export const projects = [
       Libraries: ['Flutter', 'TensorFlow Lite', 'Roboflow', 'Google Colab', 'GetX'],
       'Algorithms & Methods': ['YOLOv12n', 'Transfer Learning', 'Data Augmentation', 'Object Detection'],
     },
-    image: 'src/components/Aseets/iPhone 16 Pro.png', // Masukkan path gambar misal: '/caries.png' atau URL gambar
-    emoji: '📊',
+    image: 'public/iPhone 16 Pro.png', // Masukkan path gambar misal: '/caries.png' atau URL gambar
   },
   {
     id: 2,
     category: 'Mobile Development',
     year: '2026',
-    title: 'HematinAja (Aplikasi Pengatur Keuangan Pribadi)',
+    title: 'App HematinAja - Aplikasi Pengatur Keuangan Pribadi',
     stack: ['Flutter', 'Dart'],
     stats: [
       { value: '4', label: 'FITUR UTAMA', desc: 'Pemasukan, pengeluaran, laporan & split bill' },
@@ -209,14 +208,13 @@ export const projects = [
       'Algorithms & Methods': ['Flutter'],
       Tools: ['Figma', 'Android Studio', 'VS Code'],
     },
-    image: 'src/components/Aseets/Nothing Phone 1.png',
-    emoji: '💰',
+    image: 'public/Nothing Phone 1.png',
   },
   {
     id: 3,
     category: 'Full-Stack Web Development',
     year: '2026',
-    title: 'TONELLA (Toner Online Logging and Analytics Application)',
+    title: 'TONELLA - Toner Online Logging and Analytics Application',
     stack: ['CodeIgniter 3 ', 'PHP 7+ ', 'MySQL ', 'Tailwind CSS'],
     stats: [
       { value: '27', label: 'TABEL', desc: 'Database Relasional Terintegrasi' },
@@ -242,8 +240,7 @@ export const projects = [
       'Algorithms & Methods': ['CodeIgniter 3, MySQL, Tailwind CSS'],
       Tools: ['VS Code', 'Figma'],
     },
-    image: 'src/components/Aseets/macbook-air-2022-2.png', // Masukkan path gambar misal: '/parking.png' atau URL gambar
-    emoji: '🅿️',
+    image: 'public/macbook-air-2022-2.png', // Masukkan path gambar misal: '/parking.png' atau URL gambar
   },
   {
     id: 4,
@@ -273,14 +270,13 @@ export const projects = [
       Tools: ['GitHub Pages Deployment'],
     },
 
-    image: 'src/components/Aseets/MacBook Air (2022).png',
-    emoji: '🗺️',
+    image: 'public/MacBook Air (2022).png',
   },
   {
     id: 5,
     category: 'Web Development',
     year: '2025',
-    title: 'Rumah Impian (Website Properti)',
+    title: 'Rumah Impian - Website Properti',
     stack: ['HTML', 'CSS', 'JavaScript'],
     stats: [
       { value: 'Live chat', label: 'AI', desc: 'Fitur Live Chat/Chatbot Terintegrasi' },
@@ -303,14 +299,13 @@ export const projects = [
       Languages: ['HTML', 'CSS', 'JavaScript'],
       Tools: ['Figma'],
     },
-    image: 'src/components/Aseets/Dell XPS.png', // Masukkan path gambar misal: '/energy.png' atau URL gambar
-    emoji: '⚡',
+    image: 'public/Dell XPS.png', // Masukkan path gambar misal: '/energy.png' atau URL gambar
   },
   {
     id: 6,
     category: 'Full-Stack Web Development',
     year: '2024',
-    title: 'BeanZm (Platform E-Commerce Distributor Biji Kopi)',
+    title: 'BeanZm - Platform E-Commerce Distributor Biji Kopi',
     stack: ['React.js', 'PHP', 'SQL'],
     stats: [
       { value: '1', label: 'PERUSAHAAN', desc: 'Distributor Biji Kopi Dilayani' },
@@ -340,45 +335,52 @@ export const projects = [
 
 export const experiences = [
   {
-    year: '2025',
-    org: 'Google Indonesia',
-    title: 'Google Student Ambassador',
-    desc: 'Led student developer communities and organized workshops on AI/ML, promoting Google products and developer tools.',
-    tags: ['Community Leadership', 'AI/ML', 'Event Management', 'Developer Relations'],
-  },
-  {
-    year: '2024–2025',
-    org: 'HIMASADA UNESA',
-    title: '1st Runner-Up Putra Putri Sains Data 2025',
-    desc: 'Selected as Data Science Ambassador, promoting academic excellence in data science across the university.',
-    tags: ['Leadership', 'Data Science Advocacy', 'Public Relations', 'Branding'],
+    year: '2025 - 2026',
+    org: 'Campus Activities',
+    title: 'Library Assistant',
+    desc: 'Assisted students with thesis validation and payment-related inquiries while handling challenging and high-pressure situations. Gained experience in conflict de-escalation, professional communication, active listening, and problem solving to help resolve student concerns effectively.',
+    tags: ['Conflict Resolution', 'Communication', 'Active Listening', 'Problem Solving'],
   },
   {
     year: '2025',
-    org: 'HIMASADA UNESA',
-    title: 'Speaker — Karantina PPSD',
-    desc: 'Trained finalists in public speaking, personal branding, and data science advocacy skills.',
-    tags: ['Public Speaking', 'Mentorship', 'Personal Branding'],
+    org: 'PT Angkasa Pura Indonesia',
+    title: 'Intern Full-Stack Web Development',
+    desc: 'Developed TONELLA, a web-based system for toner inventory and replacement monitoring. Contributed to UI/UX design, system analysis, database development, and full-stack implementation.',
+    tags: ['Full-Stack Development', 'PHP', 'CodeIgniter', 'MySQL', 'UI/UX'],
+  },
+  {
+    year: '2025-2026',
+    org: 'Project Experience',
+    title: 'Developing web and mobile applications',
+    desc: 'Developed and implemented web and mobile applications through  internship, and personal projects, focusing on functional system development, responsive user interfaces, and user-friendly experiences. Worked with technologies such as PHP, CodeIgniter, JavaScript, Flutter, MySQL, dll while applying UI/UX principles to create efficient and intuitive applications.',
+    tags: ['Web Development', 'Mobile Development', 'UI/UX'],
+  },
+  {
+    year: '2026',
+    org: 'Training & Workshops',
+    title: 'Creating Business Intelligence - BNSP',
+    desc: 'Completed professional training in Business Intelligence, developing knowledge and practical skills in data analysis, business insights, and data-driven decision making.',
+    tags: ['Business Intelligence', 'Data Analysis', 'Data-Driven Decision Making']
   },
   {
     year: '2025',
-    org: 'BEM FMIPA UNESA',
-    title: 'Coach / Orientation Mentor',
-    desc: 'Guided and mentored incoming freshmen during the faculty orientation programme.',
-    tags: ['Mentorship', 'Leadership', 'Student Guidance'],
+    org: 'Training & Workshops',
+    title: 'Data Preparation for Business Processes - BNSP',
+    desc: 'Completed training focused on preparing and managing data to support business processes and improve the quality of data-driven analysis.',
+    tags: ['Data Preparation', 'Business Processes', 'Data Analysis']
   },
   {
     year: '2025',
-    org: 'HIMASADA UNESA',
-    title: 'Master of Ceremony — RELOUD 2025',
-    desc: 'Acted as main MC, coordinated stage management, and drove promotional campaigns for the faculty event.',
-    tags: ['Master of Ceremony', 'Stage Management', 'Event Branding'],
+    org: 'Training & Workshops',
+    title: 'C# for Intermediate - LEPKOM',
+    desc: 'Completed intermediate-level C# programming training, strengthening skills in object-oriented programming and application development.',
+    tags: ['C#', 'Object-Oriented Programming', 'Programming']
   },
   {
-    year: '2024–2025',
-    org: 'Dicoding, HarvardX',
-    title: 'Data Science & Technical Certifications',
-    desc: 'Completed professional courses in Python programming, Data Science, Machine Learning, and AI fundamentals.',
-    tags: ['Python', 'Data Analysis', 'Machine Learning', 'SQL'],
+    year: '2025',
+    org: 'Training & Workshops',
+    title: 'Go-Lang for Intermediate - LEPKOM',
+    desc: 'Completed intermediate-level Go programming training, developing skills in programming concepts and application development using Go.',
+    tags: ['Go', 'Programming', 'Application Development']
   },
 ];

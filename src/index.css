@@ -558,7 +558,7 @@ body {
 
 .hero-badge-1 {
   top: 25%;
-  left: 3%;
+  left: 5%;
   animation-delay: 0s;
 }
 
@@ -576,14 +576,14 @@ body {
 
 .hero-badge-4 {
   top: 35%;
-  right: 3%;
+  right: 7%;
   animation-delay: 1.5s;
 }
 
 .hero-badge-5 {
   top: 68%;
-  right: 3%;
-  animation-delay: 2s;
+  right: 4%;
+  animation-delay: 1.2s;
 }
 
 @keyframes float {
