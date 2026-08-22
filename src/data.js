@@ -151,14 +151,14 @@ export const highlights = [
 export const projects = [
   {
     id: 1,
-    category: 'Computer Vision',
+    category: 'Mobile Development',
     year: '2026',
     title: 'App CariesDetect - Deteksi & Klasifikasi Tingkat Karies Gigi Otomatis',
     stack: ['Flutter', 'Dart', 'YOLOv12', 'TensorFlow Lite', 'Roboflow '],
     stats: [
       { value: '3', label: 'TINGKAT KARIES', desc: 'Superficialis, Media, Profunda' },
-      { value: '0.673', label: 'mAP50', desc: 'performa model terbaik, epoch 200' },
-      { value: '64,89%', label: 'AKURASI', desc: 'Model melkukan pengujian menggunakan kamera Hp ' },
+      { value: 'Offline', label: 'MODE', desc: 'Data tersimpan lokal, tanpa internet, privasi aman' },
+      { value: '64,89%', label: 'AKURASI', desc: 'Model melakukan pengujian menggunakan kamera Hp dan performa model terbaik, epoch 200 ' },
       { value: '25', label: 'RESPONDEN', desc: 'Hasil seluruh responden berhasil menjalankan App' },
     ],
     overview: "Tingginya karies gigi di Indonesia mencapai 56,9% (SKI 2023), namun masyarakat masih minim akses skrining dini. CariesDetect adalah aplikasi mobile yang memanfaatkan kamera smartphone untuk mendeteksi dan mengklasifikasikan tingkat kerusakan gigi karies secara otomatis, lengkap dengan rekomendasi penanganan awal sebelum pemeriksaan ke dokter gigi.",
@@ -198,8 +198,8 @@ export const projects = [
       { title: 'Riset Kebutuhan', desc: 'Studi kebiasaan keuangan generasi muda & pain points' },
       { title: 'UI/UX Design', desc: 'Wireframe & desain antarmuka ramah pengguna di Figma' },
       { title: 'Setup Project', desc: 'Inisialisasi Flutter' },
-      { title: 'Fitur Inti', desc: 'Input pemasukan/pengeluaran, kategori, laporan otomatis' },
-      { title: 'Peringatan & Split', desc: 'Notifikasi batas pengeluaran & fitur split bill' },
+      { title: 'Fitur Inti', desc: 'Input pemasukan/pengeluaran, laporan otomatis, split bill' },
+      { title: 'Peringatan', desc: 'Notifikasi batas pengeluaran harian' },
       { title: 'Testing & Rilis', desc: 'Uji fungsionalitas & build APK release' },
     ],
     skillsDemo: ['Mobile App Development', 'UI/UX Design', 'State Management', 'Personal Finance Logic'],

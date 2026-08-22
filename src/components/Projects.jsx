@@ -1,7 +1,7 @@
 import { useState, useRef, useLayoutEffect } from 'react';
 import { projects } from '../data';
 
-const filterCategories = ['All', 'Computer Vision', 'Mobile Development', 'Full-Stack Web Development', 'Web Development'];
+const filterCategories = ['All', 'Mobile Development', 'Full-Stack Web Development', 'Web Development'];
 
 /* ──────────────────────────────────────────
    WORKFLOW with animated steps + SVG arrows
