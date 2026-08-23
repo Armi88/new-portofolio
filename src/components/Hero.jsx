@@ -126,7 +126,7 @@ export default function Hero() {
           Scroll
         </span>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1D6FEB" strokeWidth="2.5">
-          <polyline points="6 9 12 15 18 9"/>
+          <polyline points="6 9 12 15 18 9" />
         </svg>
       </div>
     </section>

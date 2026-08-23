@@ -1,12 +1,12 @@
 import React from 'react';
 
 const techStack = [
-  { name: 'React', symbol: '⚛' },
-  { name: 'JavaScript', symbol: 'JS' },
-  { name: 'HTML5', symbol: '🌐' },
-  { name: 'CSS3', symbol: '🎨' },
-  { name: 'Vite', symbol: '⚡' },
-  { name: 'GitHub Pages', symbol: '🐙' },
+  { name: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+  { name: 'JavaScript', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+  { name: 'HTML5', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+  { name: 'CSS3', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+  { name: 'Vite', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg' },
+  { name: 'GitHub', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
 ];
 
 export default function Footer() {
@@ -37,9 +37,15 @@ export default function Footer() {
           <div className="footer-built-with">
             <span className="footer-built-label">BUILT WITH</span>
             <div className="footer-tags">
-              {techStack.map((tech) => (
+            {techStack.map((tech) => (
                 <span key={tech.name} className="footer-tag">
-                  <span className="footer-tag-symbol">{tech.symbol}</span>
+                  <img
+                    src={tech.img}
+                    alt={tech.name}
+                    className="footer-tag-img"
+                    width="16"
+                    height="16"
+                  />
                   {tech.name}
                 </span>
               ))}

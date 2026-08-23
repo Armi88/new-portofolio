@@ -3,6 +3,33 @@ import { projects } from '../data';
 
 const filterCategories = ['All', 'Mobile Development', 'Full-Stack Web Development', 'Web Development'];
 
+// Mapping stack name → logo image URL
+const stackImgMap = {
+  'Flutter':           'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg',
+  'Dart':              'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg',
+  'YOLOv12':           '/yolo.svg',
+  'TensorFlow Lite':   'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg',
+  'Roboflow ':         '/roboflow.svg',
+  'Roboflow':          '/roboflow.svg',
+  'CodeIgniter 3 ':    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg',
+  'CodeIgniter 3':     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg',
+  'PHP 7+ ':           'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+  'PHP 7+':            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+  'PHP':               'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+  'MySQL ':            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  'MySQL':             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  'SQL':               'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  'Tailwind CSS':      'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
+  'HTML':              'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+  'CSS':               'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+  'JavaScript':        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+  'React.js':          'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+  'React':             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+  'Python':            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+  'TypeScript':        'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+  'Node.js':           'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+};
+
 /* ──────────────────────────────────────────
    WORKFLOW with animated steps + SVG arrows
 ────────────────────────────────────────── */
@@ -113,9 +140,22 @@ function ProjectCard({ project, isOpen, onToggle }) {
           <h3 className="project-card-title">{project.title}</h3>
           <div className="project-stack">
             <span className="project-stack-label">STACK:</span>
-            {project.stack.map((s) => (
-              <span key={s} className="stack-tag">{s}</span>
-            ))}
+            {project.stack.map((s) => {
+              const trimmed = s.trim();
+              const img = stackImgMap[s] || stackImgMap[trimmed];
+              return (
+                <span key={s} className="stack-tag">
+                  {img && (
+                    <img
+                      src={img}
+                      alt={trimmed}
+                      className="stack-tag-img"
+                    />
+                  )}
+                  {trimmed}
+                </span>
+              );
+            })}
           </div>
         </div>
 

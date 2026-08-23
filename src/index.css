@@ -1563,12 +1563,23 @@ body {
 }
 
 .stack-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.8);
-  padding: 0.2rem 0.7rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 999px;
   font-size: 0.7rem;
   font-weight: 500;
+}
+
+.stack-tag-img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
 }
 
 .project-card-right {
@@ -2333,10 +2344,12 @@ body {
   transform: translateY(-1px);
 }
 
-.footer-tag-symbol {
-  font-size: 0.65rem;
-  color: #38BDF8;
-  opacity: 0.9;
+.footer-tag-img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: block;
+  filter: drop-shadow(0 0 3px rgba(56, 189, 248, 0.3));
 }
 
 .footer-back-top {
