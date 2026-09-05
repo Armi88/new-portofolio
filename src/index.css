@@ -884,31 +884,6 @@ body {
   max-width: 100%;
 }
 
-.bio-dots-bg {
-  position: absolute;
-  inset: -30px;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.bio-dot-particle {
-  position: absolute;
-  border-radius: 50%;
-  background: radial-gradient(circle, #06b6d4 0%, #22d3ee 60%, transparent 100%);
-  animation: bio-dot-float var(--dur, 4s) ease-in-out infinite alternate;
-  animation-delay: var(--delay, 0s);
-}
-
-@keyframes bio-dot-float {
-  0% {
-    transform: translateY(0) scale(1);
-  }
-
-  100% {
-    transform: translateY(-14px) scale(1.15);
-  }
-}
-
 .bio-photo-frame {
   position: relative;
   z-index: 1;

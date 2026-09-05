@@ -82,22 +82,9 @@ export default function Marquee() {
             </div>
           </div>
 
-          {/* Right: photo + decorative dots */}
+          {/* Right: photo */}
           <div className="bio-intro-right">
             <div className="bio-photo-wrap">
-              <div className="bio-dots-bg">
-                {Array.from({ length: 80 }).map((_, i) => (
-                  <span key={i} className="bio-dot-particle" style={{
-                    left: `${Math.random() * 100}%`,
-                    top: `${Math.random() * 100}%`,
-                    width: `${4 + Math.random() * 10}px`,
-                    height: `${4 + Math.random() * 10}px`,
-                    opacity: 0.15 + Math.random() * 0.55,
-                    animationDelay: `${Math.random() * 4}s`,
-                    animationDuration: `${3 + Math.random() * 4}s`,
-                  }} />
-                ))}
-              </div>
               <div className="bio-photo-frame">
                 <img
                   src="/photo.jpeg"

@@ -304,7 +304,7 @@ export const projects = [
   {
     id: 6,
     category: 'Full-Stack Web Development',
-    year: '2024',
+    year: '2025',
     title: 'BeanZm - Platform E-Commerce Distributor Biji Kopi',
     stack: ['React.js', 'PHP', 'SQL'],
     stats: [
