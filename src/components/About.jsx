@@ -42,7 +42,7 @@ const statCards = [
     value: 'Continuous Growth',
     valueColor: '#fff',
     label: null,
-    sublabel: 'HarvardX · Google · Dicoding certified',
+    sublabel: 'Modern Web Ecosystems · Cross-Platform Mobile · Scalable Architecture',
   },
 ];
 
