@@ -4,6 +4,7 @@ import Marquee from './components/Marquee';
 import About from './components/About';
 import Highlights from './components/Highlights';
 import Skills from './components/Skills';
+import Internship from './components/Internship';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
@@ -22,6 +23,7 @@ export default function App() {
           <Highlights />
         </div>
         <Skills />
+        <Internship />
         <Projects />
         <Experience />
         <Contact />

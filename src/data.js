@@ -342,13 +342,6 @@ export const experiences = [
     tags: ['Conflict Resolution', 'Communication', 'Active Listening', 'Problem Solving'],
   },
   {
-    year: '2025',
-    org: 'PT Angkasa Pura Indonesia',
-    title: 'Intern Full-Stack Web Development',
-    desc: 'Developed TONELLA, a web-based system for toner inventory and replacement monitoring. Contributed to UI/UX design, system analysis, database development, and full-stack implementation.',
-    tags: ['Full-Stack Development', 'PHP', 'CodeIgniter', 'MySQL', 'UI/UX'],
-  },
-  {
     year: '2025-2026',
     org: 'Project Experience',
     title: 'Developing web and mobile applications',
@@ -384,3 +377,27 @@ export const experiences = [
     tags: ['Go', 'Programming', 'Application Development']
   },
 ];
+
+export const workExperiences = [
+  {
+    id: 'work-angkasa-pura',
+    year: '2025',
+    period: 'Jul 2025 – Sep 2025',
+    org: 'PT Angkasa Pura Indonesia',
+    location: 'Bandara Soekarno-Hatta, Tangerang',
+    title: 'Intern Full-Stack Web Development',
+    type: 'Corporate Internship',
+    desc: 'Developed TONELLA, a centralized web-based application for monitoring and logging toner inventory and replacement across Airport Technology Services.',
+    highlights: [
+      'Designed and implemented relational database architecture with 27 tables, foreign keys, and indexing in MySQL.',
+      'Developed responsive full-stack features using PHP 7+, CodeIgniter 3, and Tailwind CSS.',
+      'Built multi-level Role-Based Access Control (Super Admin, Admin, User) with layered report verification.',
+      'Increased logging efficiency by up to 80% replacing manual WhatsApp and spreadsheet tracking.'
+    ],
+    tags: ['CodeIgniter 3', 'PHP', 'MySQL', 'Tailwind CSS', 'UI/UX', 'System Analysis'],
+    projectRef: '#project-card-3'
+  },
+];
+
+export const internships = workExperiences;
+

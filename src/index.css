@@ -2276,8 +2276,13 @@ body {
 }
 
 /* ===================================================
-   EXPERIENCE / ACTIVITIES SECTION
+   INTERNSHIP & WORK EXPERIENCE SECTION
    =================================================== */
+.internship-section {
+  padding: 6rem 0;
+  background: linear-gradient(180deg, #F0F7FF 0%, #E0EDFD 100%);
+}
+
 .experience {
   padding: 6rem 0;
   background: linear-gradient(180deg, #EFF6FF 0%, #DBEAFE 100%);
@@ -2287,6 +2292,51 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+}
+
+.exp-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.exp-card-period-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exp-card-period {
+  font-family: var(--font-primary);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1D6FEB;
+}
+
+.exp-card-location {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.exp-type-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-family: var(--font-primary);
+  white-space: nowrap;
+}
+
+.badge-work {
+  background: rgba(29, 111, 235, 0.1);
+  color: #1D6FEB;
+  border: 1px solid rgba(29, 111, 235, 0.2);
 }
 
 .exp-card {
@@ -2350,6 +2400,59 @@ body {
   font-size: 0.65rem;
   font-weight: 600;
 }
+
+.exp-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0.85rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.exp-highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.76rem;
+  color: var(--text-mid);
+  line-height: 1.45;
+}
+
+.exp-highlight-bullet {
+  color: #1D6FEB;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  line-height: 1.3;
+}
+
+.exp-project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  padding: 0.4rem 0.85rem;
+  background: rgba(29, 111, 235, 0.08);
+  border: 1px solid rgba(29, 111, 235, 0.22);
+  border-radius: 8px;
+  font-family: var(--font-primary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #1D6FEB;
+  text-decoration: none;
+  transition: var(--transition);
+  width: fit-content;
+}
+
+.exp-project-link:hover {
+  background: #1D6FEB;
+  color: #ffffff;
+  border-color: #1D6FEB;
+  transform: translateX(3px);
+  box-shadow: 0 4px 12px rgba(29, 111, 235, 0.2);
+}
+
 
 /* ===================================================
    CONTACT SECTION
