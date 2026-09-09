@@ -68,6 +68,7 @@ const navItems = [
 
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState('home');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const sections = navItems.map((n) => n.href.replace('#', ''));
@@ -87,48 +88,159 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Close mobile menu on resize to desktop width
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 900) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Close mobile menu on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    if (isMobileMenuOpen) {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isMobileMenuOpen]);
+
   const handleNavClick = (e, href) => {
     e.preventDefault();
     const id = href.replace('#', '');
     const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    setIsMobileMenuOpen(false);
   };
 
   return (
-    <nav className="navbar" id="navbar">
-      <div className="navbar-inner">
-        <div className="navbar-links">
+    <>
+      <nav className="navbar" id="navbar">
+        <div className="navbar-inner">
+          {/* Brand Logo (Visible on mobile/tablet on the left) */}
+          <a
+            href="#bio-intro"
+            className="nav-brand-logo"
+            onClick={(e) => handleNavClick(e, '#bio-intro')}
+          >
+            Varian<span className="nav-logo-dot">.</span>
+          </a>
+
+          {/* Desktop Navigation Links */}
+          <div className="navbar-links">
+            {navItems.map((item) => {
+              const isActive = activeSection === item.href.replace('#', '');
+              return (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className={`nav-link${isActive ? ' active' : ''}`}
+                  onClick={(e) => handleNavClick(e, item.href)}
+                  id={`nav-${item.label.toLowerCase()}`}
+                >
+                  <span className="nav-link-icon">{item.icon}</span>
+                  <span className="nav-link-label">{item.label}</span>
+                </a>
+              );
+            })}
+          </div>
+
+          {/* Right Area: Status, Logo Link (desktop), and Hamburger Toggle (tablet & mobile) */}
+          <div className="navbar-right">
+            <div className="nav-available">
+              <span className="nav-available-dot" />
+              <span className="nav-available-text">AVAILABLE FOR WORK</span>
+            </div>
+
+            <a
+              href="#bio-intro"
+              className="nav-logo-btn"
+              onClick={(e) => handleNavClick(e, '#bio-intro')}
+            >
+              Varian <span className="nav-logo-dot">.</span>&thinsp;↗
+            </a>
+
+            {/* Hamburger Toggle Button (Tablet & Mobile) */}
+            <button
+              type="button"
+              className={`nav-hamburger ${isMobileMenuOpen ? 'open' : ''}`}
+              onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+              aria-label={isMobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="navbar-mobile-menu"
+            >
+              <span className="hamburger-box">
+                <span className="hamburger-line" />
+                <span className="hamburger-line" />
+                <span className="hamburger-line" />
+              </span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      {/* Backdrop for Mobile Menu */}
+      <div
+        className={`nav-backdrop ${isMobileMenuOpen ? 'open' : ''}`}
+        onClick={() => setIsMobileMenuOpen(false)}
+        aria-hidden="true"
+      />
+
+      {/* Floating Mobile Dropdown Menu (Tablet & Mobile) */}
+      <div
+        id="navbar-mobile-menu"
+        className={`navbar-mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile Navigation"
+      >
+        <div className="navbar-mobile-header">
+          <div className="navbar-mobile-brand">
+            <span className="nav-brand-name">Varian Armi Eka Saputro</span>
+            <span className="nav-brand-sub">Information Systems Graduate • Web Developer</span>
+          </div>
+        </div>
+
+        <div className="mobile-menu-links">
           {navItems.map((item) => {
             const isActive = activeSection === item.href.replace('#', '');
             return (
               <a
                 key={item.label}
                 href={item.href}
-                className={`nav-link${isActive ? ' active' : ''}`}
+                className={`mobile-menu-item${isActive ? ' active' : ''}`}
                 onClick={(e) => handleNavClick(e, item.href)}
-                id={`nav-${item.label.toLowerCase()}`}
               >
-                <span className="nav-link-icon">{item.icon}</span>
-                <span className="nav-link-label">{item.label}</span>
+                <div className="mobile-menu-item-left">
+                  <span className="mobile-menu-item-icon">{item.icon}</span>
+                  <span className="mobile-menu-item-label">{item.label}</span>
+                </div>
+                <span className="mobile-menu-item-arrow">→</span>
               </a>
             );
           })}
         </div>
 
-        <div className="navbar-right">
-          <div className="nav-available">
-            <span className="nav-available-dot" />
-            AVAILABLE
-          </div>
+        <div className="mobile-menu-footer">
           <a
-            href="#bio-intro"
-            className="nav-logo-btn"
-            onClick={(e) => handleNavClick(e, '#bio-intro')}
+            href="https://drive.google.com/file/d/1lnmfub_-Eg6C7Xl7FowQrIONa4D27cCu/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mobile-menu-cv-btn"
           >
-            Varian <span className="nav-logo-dot">.</span>&thinsp;↗
+            Download CV ↓
           </a>
         </div>
       </div>
-    </nav>
+    </>
   );
 }
