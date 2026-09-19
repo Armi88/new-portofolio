@@ -397,7 +397,7 @@ export const workExperiences = [
   {
     id: 'work-angkasa-pura',
     year: '2025',
-    period: 'Jul 2025 – Sep 2025',
+    period: 'Sep 2025 – Nov 2025',
     org: 'PT Angkasa Pura Indonesia',
     location: 'Bandara Soekarno-Hatta, Tangerang',
     title: 'Intern Full-Stack Web Development',
