@@ -388,9 +388,9 @@ export const workExperiences = [
     type: 'Part time',
     desc: ' Assisted students with thesis validation and payment-related inquiries while handling challenging and high-pressure situations. Gained experience in conflict de-escalation, professional communication, active listening, and problem solving to help resolve student concerns effectively.',
     highlights: [
-      'Dukungan Administratif Perpustakaan: Membantu dalam layanan administratif harian, mengelola data anggota perpustakaan, pengelolaan database perpustakaan dan membantu pengunjung dengan pertanyaan dan kebutuhan mereka.',
-      'Pemrosesan Bahan Perpustakaan Baru: Terlibat dalam pemrosesan buku dengan Berkoordinasi bersama pustakawan dan bahan perpustakaan baru, memastikan klasifikasi, pelabelan, dan manajemen inventaris yang tepat sesuai dengan standar perpustakaan untuk memfasilitasi pencarian pengguna.',
-      'Menjadi koordinator Menjaga ketertiban dan kenyamanan lingkungan perpustakaan serta proses bisnis.',
+      'Library Administrative Support: Assisted with daily administrative operations, managed library member data and databases, and provided support to visitors by addressing their inquiries and service needs.',
+      'New Library Material Processing: Assisted in processing new library materials by coordinating with librarians to ensure proper classification, labeling, and inventory management in accordance with library standards, facilitating efficient resource discovery for users.',
+      'Library Operations Coordinator: Coordinated daily library operations, maintained a safe, orderly, and comfortable environment, and supported the smooth execution of administrative and business processes.',
     ],
     tags: ['Problem Solving', 'Communication', 'Active Listening'],
   },
@@ -404,10 +404,12 @@ export const workExperiences = [
     type: 'Corporate Internship',
     desc: 'Developed TONELLA, a centralized web-based application for monitoring and logging toner inventory and replacement across Airport Technology Services.',
     highlights: [
-      'Designed and implemented relational database architecture with 27 tables, foreign keys, and indexing in MySQL.',
-      'Developed responsive full-stack features using PHP 7+, CodeIgniter 3, and Tailwind CSS.',
-      'Built multi-level Role-Based Access Control (Super Admin, Admin, User) with layered report verification.',
-      'Increased logging efficiency by up to 80% replacing manual WhatsApp and spreadsheet tracking.'
+      'Collaborated with business units to gather and analyze system requirements and specifications for information systems and web applications.',
+      'Designed and developed TONELLA (Toner Online Logging and Analytics Application), an internal web-based toner and printer ribbon management system using CodeIgniter 3, PHP 7+, MySQL, and Tailwind CSS.',
+      'Digitized manual recording processes previously managed through Excel and WhatsApp, centralizing data and improving operational efficiency by up to 80%.',
+      'Developed key features including a real-time dashboard, personnel management, toner status tracking, incoming toner purchase orders (PO), toner processing, and daily/monthly reporting, improving data and inventory visibility by up to 100%.',
+      'Implemented role-based access control (RBAC)for Super Admin, Admin, and User roles, including report verification and approval workflows prior to final toner replacement sign-off.',
+      'Prepared technical documentation, supported users during User Acceptance Testing (UAT), and delivered the final project documentation and report.',
     ],
     tags: ['CodeIgniter 3', 'PHP', 'MySQL', 'Tailwind CSS', 'UI/UX', 'System Analysis'],
     projectRef: '#project-card-3'
