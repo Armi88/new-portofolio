@@ -329,18 +329,10 @@ export const projects = [
       Tools: ['React.js', 'Express'],
     },
     image: '/images.jpg',
-    emoji: '🚂',
   },
 ];
 
 export const experiences = [
-  {
-    year: '2025 - 2026',
-    org: 'Campus Activities',
-    title: 'Library Assistant',
-    desc: 'Assisted students with thesis validation and payment-related inquiries while handling challenging and high-pressure situations. Gained experience in conflict de-escalation, professional communication, active listening, and problem solving to help resolve student concerns effectively.',
-    tags: ['Conflict Resolution', 'Communication', 'Active Listening', 'Problem Solving'],
-  },
   {
     year: '2025-2026',
     org: 'Project Experience',
@@ -376,9 +368,32 @@ export const experiences = [
     desc: 'Completed intermediate-level Go programming training, developing skills in programming concepts and application development using Go.',
     tags: ['Go', 'Programming', 'Application Development']
   },
+  {
+    year: '2024',
+    org: 'Myskill Bootcamp',
+    title: 'UI/UX Designer Revamp InDrive',
+    desc: 'Redesigned the InDrive UI/UX to be more intuitive and improved app performance responsiveness by up to 30% in collaboration with a cross-functional Agile team.',
+    tags: ['UI/UX Design', 'User Experience', 'Prototyping', 'Agile']
+  },
 ];
 
 export const workExperiences = [
+  {
+    id: 'part time perpustakaan',
+    year: '2025',
+    period: 'Jun 2025 – Jan 2026',
+    org: 'Universitas Gunadarma',
+    location: 'Depok, Pondok Cina',
+    title: 'Library Assistant',
+    type: 'Part time',
+    desc: ' Assisted students with thesis validation and payment-related inquiries while handling challenging and high-pressure situations. Gained experience in conflict de-escalation, professional communication, active listening, and problem solving to help resolve student concerns effectively.',
+    highlights: [
+      'Dukungan Administratif Perpustakaan: Membantu dalam layanan administratif harian, mengelola data anggota perpustakaan, pengelolaan database perpustakaan dan membantu pengunjung dengan pertanyaan dan kebutuhan mereka.',
+      'Pemrosesan Bahan Perpustakaan Baru: Terlibat dalam pemrosesan buku dengan Berkoordinasi bersama pustakawan dan bahan perpustakaan baru, memastikan klasifikasi, pelabelan, dan manajemen inventaris yang tepat sesuai dengan standar perpustakaan untuk memfasilitasi pencarian pengguna.',
+      'Menjadi koordinator Menjaga ketertiban dan kenyamanan lingkungan perpustakaan serta proses bisnis.',
+    ],
+    tags: ['Problem Solving', 'Communication', 'Active Listening'],
+  },
   {
     id: 'work-angkasa-pura',
     year: '2025',

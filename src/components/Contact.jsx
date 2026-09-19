@@ -17,9 +17,9 @@ export default function Contact() {
       bg: 'rgba(0, 119, 181, 0.12)',
     },
     {
-      href: 'https://instagram.com/vrancdxx_',
+      href: 'https://instagram.com/armi.saputro',
       label: 'INSTAGRAM',
-      value: '@vrancdxx_',
+      value: '@armi.saputro',
       img: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png',
       bg: 'rgba(225, 48, 108, 0.12)',
     },

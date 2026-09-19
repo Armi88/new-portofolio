@@ -47,16 +47,15 @@ export default function Marquee() {
 
             <div className="bio-intro-tags">
               <span className="bio-tag">Information Systems Fresh graduate</span>
-              <span className="bio-tag">Research &amp; Development</span>
-              <span className="bio-tag">Web Developer</span>
+              <span className="bio-tag">Junior Web Developer</span>
+              <span className="bio-tag">Mobile Developer</span>
               <span className="bio-tag">Data Analyst</span>
               <span className="bio-tag">Software Engineer</span>
               <span className="bio-tag">UI/UX Designer</span>
             </div>
 
             <p className="bio-intro-desc">
-              Information Systems Fresh graduate at Universitas Gunadarma.
-              Aspiring Software Engineer passionate about developing innovative software
+              Information Systems Fresh graduate at Universitas Gunadarma. Aspiring Software Engineer passionate about developing innovative software
               through cutting-edge technology and software development. 
             </p>
 

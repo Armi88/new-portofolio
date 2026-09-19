@@ -75,7 +75,7 @@ export default function Experience() {
                 Bachelor of Information Systems · 2022 – 2026
               </div>
               <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898' }}>
-                GPA: 3.74 / 4.00
+                GPA: 3.73 / 4.00
               </div>
             </div>
             {/* HIDDEN — hapus komentar ini untuk menampilkan kembali badge sertifikasi

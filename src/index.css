@@ -717,6 +717,7 @@ body {
     opacity: 0;
     transform: translateY(35px) scale(0.9) rotate(0deg);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0) scale(1) rotate(-1.5deg);
@@ -760,6 +761,7 @@ body {
     opacity: 0;
     transform: translate(-15px, 20px) scale(0.6) rotate(-20deg);
   }
+
   100% {
     opacity: 1;
     transform: translate(0, 0) scale(1) rotate(-5deg);
@@ -874,7 +876,7 @@ body {
   -webkit-backdrop-filter: blur(10px) saturate(140%);
   border: 1.5px solid rgba(255, 255, 255, 0.7);
   border-radius: 18px;
-  box-shadow: 0 16px 36px rgba(10, 22, 40, 0.15), 0 4px 12px rgba(29, 111, 235, 0.1), inset 0 1px 0 rgba(255,255,255,0.8);
+  box-shadow: 0 16px 36px rgba(10, 22, 40, 0.15), 0 4px 12px rgba(29, 111, 235, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.8);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -889,9 +891,11 @@ body {
     opacity: 0;
     transform: translateY(28px) scale(0.7) rotate(0deg);
   }
+
   70% {
     transform: translateY(-4px) scale(1.04) rotate(-2deg);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0) scale(1) rotate(-1.5deg);
@@ -1273,7 +1277,7 @@ body {
 .about-heading-underline {
   height: 4px;
   width: min(5000px, 76%);
-  background: linear-gradient(90deg,#1fd9e2  0%, #1D6FEB 50%, #38BDF8 70%, #0D1F3C 100%);
+  background: linear-gradient(90deg, #1fd9e2 0%, #1D6FEB 50%, #38BDF8 70%, #0D1F3C 100%);
   border-radius: 2px;
   margin-bottom: 1rem;
 }
@@ -2112,15 +2116,34 @@ body {
 }
 
 /* fallback */
-.workflow-step-text { display: none; }
-.workflow-step-text.workflow-step-visible { display: none; }
+.workflow-step-text {
+  display: none;
+}
+
+.workflow-step-text.workflow-step-visible {
+  display: none;
+}
 
 /* ─── Sisa class lama (aman dipertahankan, tidak dipakai) ─── */
-.workflow-arrow         { display: none; }
-.workflow-arrow-svg     { display: none; }
-.workflow-step          { display: none; }
-.workflow-nums-row      { display: none; }
-.workflow-texts-row     { display: none; }
+.workflow-arrow {
+  display: none;
+}
+
+.workflow-arrow-svg {
+  display: none;
+}
+
+.workflow-step {
+  display: none;
+}
+
+.workflow-nums-row {
+  display: none;
+}
+
+.workflow-texts-row {
+  display: none;
+}
 
 .project-card-actions {
   display: flex;
@@ -3044,9 +3067,11 @@ body {
       opacity: 0;
       transform: translateY(20px) scale(0.75) rotate(0deg);
     }
+
     70% {
       transform: translateY(-2px) scale(1.03) rotate(-1.5deg);
     }
+
     100% {
       opacity: 1;
       transform: translateY(0) scale(1) rotate(-1deg);
