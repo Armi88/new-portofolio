@@ -384,7 +384,7 @@ export const workExperiences = [
     period: 'Jun 2025 – Jan 2026',
     org: 'Universitas Gunadarma',
     location: 'Depok, Pondok Cina',
-    title: 'Library Assistant',
+    title: 'Library Administration Coordinator',
     type: 'Part time',
     desc: ' Assisted students with thesis validation and payment-related inquiries while handling challenging and high-pressure situations. Gained experience in conflict de-escalation, professional communication, active listening, and problem solving to help resolve student concerns effectively.',
     highlights: [
