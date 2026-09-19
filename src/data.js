@@ -343,14 +343,14 @@ export const experiences = [
   {
     year: '2026',
     org: 'Training & Workshops',
-    title: 'Creating Business Intelligence - BNSP',
+    title: 'Creating Business Intelligence - LSP',
     desc: 'Completed professional training in Business Intelligence, developing knowledge and practical skills in data analysis, business insights, and data-driven decision making.',
     tags: ['Business Intelligence', 'Data Analysis', 'Data-Driven Decision Making']
   },
   {
     year: '2025',
     org: 'Training & Workshops',
-    title: 'Data Preparation for Business Processes - BNSP',
+    title: 'Data Preparation for Business Processes - LSP',
     desc: 'Completed training focused on preparing and managing data to support business processes and improve the quality of data-driven analysis.',
     tags: ['Data Preparation', 'Business Processes', 'Data Analysis']
   },
