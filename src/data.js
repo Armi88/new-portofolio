@@ -407,7 +407,6 @@ export const workExperiences = [
       'Collaborated with business units to gather and analyze system requirements and specifications for information systems and web applications.',
       'Designed and developed TONELLA (Toner Online Logging and Analytics Application), an internal web-based toner and printer ribbon management system using CodeIgniter 3, PHP 7+, MySQL, and Tailwind CSS.',
       'Digitized manual recording processes previously managed through Excel and WhatsApp, centralizing data and improving operational efficiency by up to 80%.',
-      'Developed key features including a real-time dashboard, personnel management, toner status tracking, incoming toner purchase orders (PO), toner processing, and daily/monthly reporting, improving data and inventory visibility by up to 100%.',
       'Implemented role-based access control (RBAC)for Super Admin, Admin, and User roles, including report verification and approval workflows prior to final toner replacement sign-off.',
       'Prepared technical documentation, supported users during User Acceptance Testing (UAT), and delivered the final project documentation and report.',
     ],

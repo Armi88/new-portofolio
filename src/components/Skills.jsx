@@ -57,7 +57,7 @@ export default function Skills() {
   const categories = [
     {
       label: 'Languages & Frameworks',
-      skills: ['PHP', 'JavaScript', 'Python', 'Dart', 'HTML', 'CSS', 'CodeIgniter', 'Flutter', 'Tailwin CSS'],
+      skills: ['PHP', 'JavaScript', 'Python', 'Dart', 'HTML', 'CSS','React js','CodeIgniter', 'Flutter', 'Tailwin CSS'],
     },
     {
       label: 'Data Science & ML',
@@ -68,8 +68,8 @@ export default function Skills() {
       skills: ['Matplotlib', 'Seaborn', 'Looker Studio', 'Tableau', 'Power BI'],
     },
     {
-      label: 'Tools & Databases',
-      skills: ['Git', 'GitHub', 'MySQL', 'Vercel', 'Jupyter', 'VS Code', 'Supabase'],
+      label: 'Tools/Software',
+      skills: ['Git','VS Code','Antigravity','Android Studio', 'XAMPP', 'Vercel','Figma','Roboflow', 'Jupyter', 'Supabase','Google Colab',],
     },
   ];
 

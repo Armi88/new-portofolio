@@ -49,7 +49,7 @@ const statCards = [
 const narrativeSections = [
   {
     heading: 'WHO I AM',
-    text: "I'm Varian Armi, an Information Systems Fresh graduate at Gunadarma University with a GPA of 3.74. I'm driven by a passion for building systems that are not only functional but also impactful — blending logical thinking with creative problem-solving.",
+    text: "I'm Varian Armi, an Information Systems Fresh graduate at Gunadarma University with a GPA of 3.73. I'm driven by a passion for building systems that are not only functional but also impactful — blending logical thinking with creative problem-solving.",
   },
   {
     heading: 'WHAT MOTIVATES ME',
