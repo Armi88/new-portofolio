@@ -48,20 +48,20 @@ const statCards = [
 
 const narrativeSections = [
   {
-    heading: 'WHO I AM',
-    text: "I'm Varian Armi, an Information Systems Fresh graduate at Gunadarma University with a GPA of 3.73. I'm driven by a passion for building systems that are not only functional but also impactful — blending logical thinking with creative problem-solving.",
+    heading: 'SIAPA SAYA',
+    text: "Nama saya Varian Armi, lulusan baru Jurusan Sistem Informasi dari Universitas Gunadarma dengan IPK 3,73. Saya termotivasi oleh semangat untuk membangun sistem yang tidak hanya fungsional, tetapi juga berdampak, dengan memadukan pemikiran logis dan pemecahan masalah yang kreatif",
   },
   {
-    heading: 'WHAT MOTIVATES ME',
-    text: "I'm motivated by the challenge of turning complex problems into elegant digital solutions. From designing intuitive web interfaces to building intelligent vision systems, I thrive at the intersection of software engineering and real-world impact.",
+    heading: 'APA YANG MEMOTIVASI SAYA',
+    text: "Saya termotivasi oleh tantangan dalam mengubah permasalahan yang kompleks menjadi solusi digital yang efektif. Memiliki pengalaman dalam merancang antarmuka web yang intuitif serta mengembangkan sistem berbasis visi komputer. Saya terus mengembangkan kemampuan di bidang rekayasa perangkat lunak dengan berfokus pada penerapan teknologi untuk menghasilkan solusi yang bermanfaat dan sesuai dengan kebutuhan pengguna.",
   },
   {
-    heading: 'WHAT I ENJOY BUILDING',
-    text: 'I enjoy crafting projects that matter — from responsive web and mobile applications to deep learning models using YOLO and Computer Vision. I love seeing code come to life and solve problems that people face every day.',
+    heading: 'APA YANG SAYA SUKA BANGUN',
+    text: 'Saya senang mengerjakan proyek-proyek yang bermakna mulai dari situs web dan aplikasi seluler yang responsif hingga model pembelajaran mendalam yang menggunakan YOLO dan Computer Vision. Saya senang melihat kode menjadi hidup dan memecahkan masalah yang dihadapi orang-orang setiap hari.',
   },
   {
-    heading: "WHERE I'M HEADING",
-    text: "Aiming for a Software Engineer, UI/UX Designer or Full-Stack Developer role where I can contribute to innovative products. My foundation in web development, mobile apps, machine learning, and database design prepares me to build solutions at scale.",
+    heading: "TUJUAN SAYA",
+    text: "Saya bercita-cita untuk bekerja di posisi Software Engineer, UI/UX Designer, Full-Stack Developer atau System Analyst di mana saya dapat berkontribusi pada produk-produk inovatif. Dengan fondasi yang kuat dalam pengembangan web, aplikasi seluler, pembelajaran mesin, dan perancangan basis data, saya siap untuk membangun solusi yang mampu berkembang sesuai skala kebutuhan.",
   },
 ];
 
@@ -135,7 +135,7 @@ export default function About() {
           </div>
           <h2 className="about-heading">The person behind the data.</h2>
           <div className="about-heading-underline" />
-          <p className="about-subheading">Transforming curiosity into measurable solutions through data and technology.</p>
+          <p className="about-subheading">Mengubah rasa ingin tahu untuk memahami permasalahan dan menghasilkan solusi yang tepat melalui data dan teknologi.</p>
         </div>
 
         <div className="about-body">

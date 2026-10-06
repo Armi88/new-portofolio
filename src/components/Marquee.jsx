@@ -55,8 +55,7 @@ export default function Marquee() {
             </div>
 
             <p className="bio-intro-desc">
-              Information Systems Fresh graduate at Universitas Gunadarma. Aspiring Software Engineer passionate about developing innovative software
-              through cutting-edge technology and software development. 
+              Lulusan S1 Sistem Informasi Universitas Gunadarma yang memiliki minat pada pengembangan perangkat lunak dan teknologi informasi. Berkomitmen untuk mengembangkan solusi yang inovatif, efektif, dan sesuai dengan kebutuhan pengguna melalui pemanfaatan teknologi.
             </p>
 
             <div className="bio-intro-cta">

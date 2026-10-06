@@ -323,7 +323,7 @@ export default function Projects() {
             Case <span>Studies</span> &amp; Projects
           </h2>
           <div className="about-heading-underline" />
-          <p className="about-subheading">Every case study below reflects actual academic work — the problem, the approach, and what was learned. Click any project to read the full breakdown.</p>
+          <p className="about-subheading">Setiap studi kasus berikut merupakan bagian dari proyek akademik yang saya kerjakan, mencakup permasalahan yang dihadapi, pendekatan yang digunakan, serta hasil dan pembelajaran yang diperoleh. Pilih salah satu proyek untuk melihat penjelasan lebih lengkap.</p>
         </div>
 
         {/* ── Filter pills ── */}

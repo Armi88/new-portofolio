@@ -29,7 +29,7 @@ export default function Internship() {
           </h2>
           <div className="about-heading-underline" />
           <p className="about-subheading">
-            Hands-on corporate internship, enterprise system development, and real-world software engineering solutions.
+            Pengalaman praktik langsung dalam pengembangan sistem perusahaan dan penerapan solusi perangkat lunak untuk kebutuhan dunia kerja.
           </p>
         </div>
 

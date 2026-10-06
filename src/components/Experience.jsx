@@ -15,7 +15,7 @@ export default function Experience() {
             Activities &amp; <span>Experience</span>
           </h2>
           <div className="about-heading-underline" />
-          <p className="about-subheading">Leadership, Communication, and job certification training that emerge when you step away from the screen.</p>
+          <p className="about-subheading">Pelatihan dan sertifikasi yang mendukung pengembangan kompetensi teknis, kepemimpinan, komunikasi, serta keterampilan profesional.</p>
         </div>
 
         <div className="experience-grid">
@@ -72,10 +72,10 @@ export default function Experience() {
                 Universitas Gunadarma
               </div>
               <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898', marginTop: '0.25rem' }}>
-                Bachelor of Information Systems · 2022 – 2026
+                Sarjana Sistem Informasi · 2022 – 2026
               </div>
               <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898' }}>
-                GPA: 3.73 / 4.00
+                IPK: 3.73 / 4.00
               </div>
             </div>
             {/* HIDDEN — hapus komentar ini untuk menampilkan kembali badge sertifikasi

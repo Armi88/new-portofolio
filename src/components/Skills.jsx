@@ -87,7 +87,7 @@ export default function Skills() {
           </h2>
           <div className="about-heading-underline" />
           <p className="about-subheading">
-            Tools, languages, and ecosystems that I use to gather, model, and visualize data.
+            Alat, bahasa pemrograman, dan ekosistem yang saya gunakan untuk mengumpulkan, memodelkan, dan memvisualisasikan data.
           </p>
         </div>
 
