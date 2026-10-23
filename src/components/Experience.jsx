@@ -45,67 +45,6 @@ export default function Experience() {
             </div>
           ))}
         </div>
-
-        {/* Education & Certifications */}
-        <div style={{
-          marginTop: '3rem',
-          background: 'rgba(255,255,255,0.6)',
-          backdropFilter: 'blur(12px)',
-          border: '1.5px solid rgba(255,255,255,0.9)',
-          borderRadius: '20px',
-          padding: '2rem',
-        }}>
-          <div style={{
-            fontFamily: 'Space Grotesk, sans-serif',
-            fontSize: '0.7rem',
-            fontWeight: 700,
-            letterSpacing: '0.12em',
-            textTransform: 'uppercase',
-            color: '#38BDF8',
-            marginBottom: '1rem',
-          }}>
-            🎓 Education
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem' }}>
-            <div>
-              <div style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '1rem', fontWeight: 700, color: '#1E0B3A' }}>
-                Universitas Gunadarma
-              </div>
-              <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898', marginTop: '0.25rem' }}>
-                Sarjana Sistem Informasi · 2022 – 2026
-              </div>
-              <div style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.82rem', color: '#7C6898' }}>
-                IPK: 3.73 / 4.00
-              </div>
-            </div>
-            {/* HIDDEN — hapus komentar ini untuk menampilkan kembali badge sertifikasi
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'flex-start' }}>
-              {[
-                'Python for Data Science – Dicoding',
-                'Machine Learning – HarvardX',
-                'Data Analysis – Google',
-                'SQL for Data Science – Coursera',
-              ].map((cert) => (
-                <div key={cert} style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.4rem',
-                  padding: '0.35rem 0.8rem',
-                  background: 'rgba(29,111,235,0.08)',
-                  borderRadius: '999px',
-                  fontSize: '0.72rem',
-                  color: '#1E3A5F',
-                  fontWeight: 500,
-                  fontFamily: 'Inter, sans-serif',
-                }}>
-                  ✓ {cert}
-                </div>
-              ))}
-            </div>
-            */}
-          </div>
-        </div>
-
       </div>
     </section>
   );

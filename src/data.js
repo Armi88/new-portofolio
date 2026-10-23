@@ -334,6 +334,20 @@ export const projects = [
 
 export const experiences = [
   {
+    year: '2026-2026',
+    org: 'course',
+    title: 'Apps Development with React Native',
+    desc: 'Menyelesaikan kursus React Native dengan mempelajari dasar pengembangan aplikasi mobile lintas platform menggunakan React Native, JavaScript, dan TypeScript. Materi mencakup pembuatan komponen, pengelolaan state dan props, penggunaan React Hooks, navigasi antarlayar, serta pembuatan form input. Selain itu, mempelajari integrasi API, pengelolaan state menggunakan Redux, penerapan operasi CRUD, penyimpanan data lokal dengan AsyncStorage, serta penggunaan Firebase untuk unggah file dan push notification. Kursus ini juga membahas penerapan animasi, unit testing, optimasi performa, perancangan alur aplikasi, hingga persiapan dan proses publikasi aplikasi ke Google Play Store dan App Store.',
+    tags: ['React Native', 'Expo','JavaScript','TypeScript'],
+  },
+  {
+    year: '2026-2026',
+    org: 'course',
+    title: 'Frontend - React',
+    desc: 'Telah menyelesaikan program pembelajaran tentang dasar-dasar React, JSX, elements, components, props, state, serta functional dan class components. Memahami pengelolaan data dinamis, event handling, conditional rendering, lists, dan styling menggunakan CSS. Selain itu, mempelajari React Router untuk navigasi antarkomponen, React Hooks (`useState` dan `useEffect`), serta pembuatan dan pengelolaan form, termasuk validasi input dan pengiriman data.',
+    tags: ['Frontend', 'React'],
+  },
+  {
     year: '2025-2026',
     org: 'Project Experience',
     title: 'Developing web and mobile applications',
@@ -342,29 +356,29 @@ export const experiences = [
   },
   {
     year: '2026',
-    org: 'Training & Workshops',
-    title: 'Creating Business Intelligence - LSP',
+    org: 'Training LSP',
+    title: 'Creating Business Intelligence',
     desc: 'Telah menyelesaikan pelatihan profesional di bidang Business Intelligence, yang memperluas pengetahuan dan keterampilan praktis dalam analisis data, wawasan bisnis, serta pengambilan keputusan berbasis data.',
     tags: ['Business Intelligence', 'Data Analysis', 'Data-Driven Decision Making']
   },
   {
     year: '2025',
-    org: 'Training & Workshops',
-    title: 'Data Preparation for Business Processes - LSP',
+    org: 'Training LSP',
+    title: 'Data Preparation for Business Processes',
     desc: 'Telah menyelesaikan pelatihan yang berfokus pada persiapan dan pengelolaan data untuk mendukung proses bisnis serta meningkatkan kualitas analisis berbasis data.',
     tags: ['Data Preparation', 'Business Processes', 'Data Analysis']
   },
   {
     year: '2025',
-    org: 'Training & Workshops',
-    title: 'C# for Intermediate - LEPKOM',
+    org: 'Training',
+    title: 'C# for Intermediate',
     desc: 'Telah menyelesaikan pelatihan pemrograman C# tingkat menengah, yang memperkuat keterampilan dalam pemrograman berorientasi objek dan pengembangan aplikasi.',
     tags: ['C#', 'Object-Oriented Programming', 'Programming']
   },
   {
     year: '2025',
-    org: 'Training & Workshops',
-    title: 'Go-Lang for Intermediate - LEPKOM',
+    org: 'Training',
+    title: 'Go-Lang for Intermediate',
     desc: 'Telah menyelesaikan pelatihan pemrograman Go tingkat menengah, yang bertujuan untuk mengembangkan keterampilan dalam konsep pemrograman dan pengembangan aplikasi menggunakan Go.',
     tags: ['Go', 'Programming', 'Application Development']
   },
@@ -399,9 +413,9 @@ export const workExperiences = [
     id: 'work-angkasa-pura',
     year: '2025',
     period: 'Sep 2025 – Nov 2025',
-    org: 'PT Angkasa Pura Indonesia',
+    org: 'PT Angkasa Pura Indonesia (InJourney Airports)',
     location: 'Bandara Soekarno-Hatta, Tangerang',
-    title: 'Intern Full-Stack Web Development',
+    title: 'Intern Web Development',
     type: 'Internship',
     desc: 'Mengembangkan TONELLA, sebuah aplikasi berbasis web terpusat untuk memantau dan mencatat persediaan serta penggantian toner di seluruh Layanan Teknologi Bandara.',
     highlights: [
