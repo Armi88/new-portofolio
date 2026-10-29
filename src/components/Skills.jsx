@@ -60,12 +60,12 @@ export default function Skills() {
       skills: ['PHP', 'JavaScript', 'Python', 'Dart', 'HTML', 'CSS','React js','CodeIgniter', 'Flutter', 'Tailwin CSS'],
     },
     {
-      label: 'Data Science & ML',
-      skills: ['pandas', 'NumPy', 'scikit-learn', 'TensorFlow', 'YOLO', 'OpenCV', 'NLP'],
+      label: 'Data Science & Visualization',
+      skills: ['pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Looker Studio', 'Tableau', 'Power BI'],
     },
     {
-      label: 'Visualization',
-      skills: ['Matplotlib', 'Seaborn', 'Looker Studio', 'Tableau', 'Power BI'],
+      label: 'Deep Learning & Machine Learning',
+      skills: ['scikit-learn', 'PyTorch','TensorFlow', 'YOLO', 'OpenCV', 'NLP'],
     },
     {
       label: 'Tools/Software',
