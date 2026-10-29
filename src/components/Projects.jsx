@@ -1,7 +1,7 @@
 import { useState, useRef, useLayoutEffect } from 'react';
 import { projects } from '../data';
 
-const filterCategories = ['All', 'Mobile Development', 'Full-Stack Web Development', 'Web Development'];
+const filterCategories = ['All', 'Mobile Development', 'Full-Stack Web Development', 'Web Development', 'Data Analyst'];
 
 // Mapping stack name → logo image URL
 const stackImgMap = {
@@ -81,13 +81,21 @@ function SkillsPanel({ project }) {
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
           </svg>
-          SKILLS DEMONSTRATED
+          {project.category === 'Data Analyst' ? 'INSIGHTS' : 'SKILLS DEMONSTRATED'}
         </div>
-        <div className="skills-demo-pills">
-          {skillsDemo.map((skill) => (
-            <span key={skill} className="skills-demo-pill">{skill}</span>
-          ))}
-        </div>
+        {skillsDemo.some((s) => s.length > 60) ? (
+          <ul className="project-bullet-list">
+            {skillsDemo.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        ) : (
+          <div className="skills-demo-pills">
+            {skillsDemo.map((skill) => (
+              <span key={skill} className="skills-demo-pill">{skill}</span>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* ── Divider ── */}
@@ -217,9 +225,17 @@ function ProjectCard({ project, isOpen, onToggle }) {
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" />
               </svg>
-              RECRUITER PERSPECTIVE
+              KEY HIGHLIGHTS
             </div>
-            <p className="project-recruiter-text">{project.recruiterNote}</p>
+            {Array.isArray(project.recruiterNote) ? (
+              <ul className="project-bullet-list">
+                {project.recruiterNote.map((note) => (
+                  <li key={note}>{note}</li>
+                ))}
+              </ul>
+            ) : (
+              <p className="project-recruiter-text">{project.recruiterNote}</p>
+            )}
           </div>
 
           {/* Workflow */}

@@ -55,7 +55,7 @@ export default function Marquee() {
             </div>
 
             <p className="bio-intro-desc">
-              Lulusan S1 Sistem Informasi Universitas Gunadarma yang memiliki minat pada pengembangan perangkat lunak dan teknologi informasi. Berkomitmen untuk mengembangkan solusi yang inovatif, efektif, dan sesuai dengan kebutuhan pengguna melalui pemanfaatan teknologi.
+              Lulusan S1 Sistem Informasi Universitas Gunadarma yang memiliki minat pada pengembangan web, UI/UX, system analyst dan data analyst. Berkomitmen untuk mengembangkan solusi yang inovatif, efektif, dan sesuai dengan kebutuhan pengguna melalui pemanfaatan teknologi.
             </p>
 
             <div className="bio-intro-cta">

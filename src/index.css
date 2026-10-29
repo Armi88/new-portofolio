@@ -1,4 +1,4 @@
-/* ===================================================
+﻿/* ===================================================
    GLOBAL RESET & BASE STYLES
    =================================================== */
 *,
@@ -10,9 +10,9 @@
 }
 
 :root {
-  /* ── Unified Blue-Navy Design System ── */
+  /* â”€â”€ Unified Blue-Navy Design System â”€â”€ */
   --navy: #0A1628;
-  /* darkest – headings on dark bg */
+  /* darkest â€“ headings on dark bg */
   --navy-mid: #0D1F3C;
   /* card dark bg */
   --blue-primary: #1D6FEB;
@@ -43,7 +43,7 @@
   --dark-card-bg: #070F1C;
   --dark-card-secondary: #0D1F3C;
   --nav-bg: #060E1A;
-  /* legacy aliases – keep for compatibility */
+  /* legacy aliases â€“ keep for compatibility */
   --purple-dark: #0A1628;
   --purple-deep: #0D1F3C;
   --purple-primary: #1D6FEB;
@@ -1223,7 +1223,7 @@ body {
 }
 
 /* ===================================================
-   ABOUT SECTION — "The person behind the data"
+   ABOUT SECTION â€” "The person behind the data"
    =================================================== */
 .about {
   padding: 7rem 0 6rem;
@@ -2020,7 +2020,7 @@ body {
   gap: 0.5rem;
 }
 
-/* ─── Workflow Container ─── */
+/* â”€â”€â”€ Workflow Container â”€â”€â”€ */
 .workflow-steps {
   display: flex;
   flex-direction: row;
@@ -2030,7 +2030,7 @@ body {
   gap: 0;
 }
 
-/* ─── Setiap step item ─── */
+/* â”€â”€â”€ Setiap step item â”€â”€â”€ */
 .workflow-step-item {
   display: flex;
   flex-direction: column;
@@ -2050,7 +2050,7 @@ body {
   transform: translateY(0);
 }
 
-/* ─── Arrow connector: karakter > di tengah circle ─── */
+/* â”€â”€â”€ Arrow connector: karakter > di tengah circle â”€â”€â”€ */
 .workflow-connector {
   position: absolute;
   top: 0px;
@@ -2075,7 +2075,7 @@ body {
   transform: translateX(0);
 }
 
-/* ─── Lingkaran nomor ─── */
+/* â”€â”€â”€ Lingkaran nomor â”€â”€â”€ */
 .workflow-step-num {
   width: 44px;
   height: 44px;
@@ -2094,7 +2094,7 @@ body {
   margin-bottom: 0.65rem;
 }
 
-/* ─── Judul bold di bawah nomor ─── */
+/* â”€â”€â”€ Judul bold di bawah nomor â”€â”€â”€ */
 .workflow-step-title {
   font-size: 0.75rem;
   font-weight: 700;
@@ -2105,7 +2105,7 @@ body {
   margin-bottom: 0.35rem;
 }
 
-/* ─── Deskripsi kecil di bawah judul ─── */
+/* â”€â”€â”€ Deskripsi kecil di bawah judul â”€â”€â”€ */
 .workflow-step-desc {
   font-size: 0.6rem;
   font-weight: 400;
@@ -2124,7 +2124,7 @@ body {
   display: none;
 }
 
-/* ─── Sisa class lama (aman dipertahankan, tidak dipakai) ─── */
+/* â”€â”€â”€ Sisa class lama (aman dipertahankan, tidak dipakai) â”€â”€â”€ */
 .workflow-arrow {
   display: none;
 }
@@ -2185,7 +2185,7 @@ body {
   margin-bottom: 0.85rem;
 }
 
-/* ── Concept pills row ── */
+/* â”€â”€ Concept pills row â”€â”€ */
 .skills-demo-pills {
   display: flex;
   flex-wrap: wrap;
@@ -2210,7 +2210,7 @@ body {
   background: rgba(29, 111, 235, 0.30);
 }
 
-/* ── Tech stack column grid ── */
+/* â”€â”€ Tech stack column grid â”€â”€ */
 .tech-stack-grid {
   display: flex;
   flex-wrap: wrap;
@@ -2856,7 +2856,7 @@ body {
    RESPONSIVE DESIGN SYSTEM (ALL DEVICES)
    =================================================== */
 
-/* ── 1. Large Tablets & Small Laptops (max-width: 1024px) ── */
+/* â”€â”€ 1. Large Tablets & Small Laptops (max-width: 1024px) â”€â”€ */
 @media (max-width: 1024px) {
   .about-body {
     grid-template-columns: 1fr;
@@ -2899,7 +2899,7 @@ body {
   }
 }
 
-/* ── 2. Tablets & Medium Screens (max-width: 900px) ── */
+/* â”€â”€ 2. Tablets & Medium Screens (max-width: 900px) â”€â”€ */
 @media (max-width: 900px) {
   .navbar {
     height: 56px;
@@ -2976,7 +2976,7 @@ body {
   }
 }
 
-/* ── 3. Mobile Devices (max-width: 640px) ── */
+/* â”€â”€ 3. Mobile Devices (max-width: 640px) â”€â”€ */
 @media (max-width: 640px) {
   .navbar {
     top: 0.65rem;
@@ -3319,7 +3319,7 @@ body {
   }
 }
 
-/* ── 4. Extra Small Screens (max-width: 400px) ── */
+/* â”€â”€ 4. Extra Small Screens (max-width: 400px) â”€â”€ */
 @media (max-width: 400px) {
   .hero-title-text {
     font-size: 2rem;
@@ -3348,4 +3348,19 @@ body {
     height: 325px;
     border-radius: 20px;
   }
+}
+/* Bullet lists for project notes / skills */
+.project-bullet-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: disc;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.project-bullet-list li::marker {
+  color: #38BDF8;
 }

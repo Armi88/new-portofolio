@@ -181,6 +181,40 @@ export const projects = [
   },
   {
     id: 2,
+    category: 'Data Analyst',
+    year: '2026',
+    title: 'Analisis Faktor Kemiskinan Tingkat Kabupaten/Kota Di Indonesia',
+    stack: ['Python'],
+    stats: [
+      { value: '8,69%', label: 'Rata-Rata Kemiskinan', desc: 'Setelah menghapus outlier' },
+      { value: '(-0,36) dan (-0,34)', label: 'korelasi negatif terkuat dengan kemiskinan', desc: 'Pengeluaran (-0,36) dan IPM (-0,34)' },
+      { value: '423', label: 'Pengeluan data', desc: 'Disaring dari 532 data menjadi 423 observasi' },
+    ],
+    overview: 'Proyek ini (tugas Ujian Sertifikasi Kompetensi Data Science / LSP) bertujuan menganalisis faktor sosial ekonomi yang memengaruhi Kemiskinan di kabupaten dan kota di Indonesia. Bersumber dari Badan Pusat Statistik (BPS), dataset mentah terdiri dari 532 observasi awal yang mencakup indikator seperti IPM, RLS, Pengeluaran, UHH, Sanitasi, AirMinum, TPT, dan TPAK. Hasil analisis memberikan wawasan berbasis data yang dapat ditindaklanjuti untuk kebijakan penanggulangan kemiskinan daerah oleh instansi pemerintah terkait',
+    recruiterNote: [
+      'Dampak Pengeluaran & IPM: Pengeluaran dan IPM menunjukkan korelasi negatif yang signifikan secara statistik dengan Kemiskinan; wilayah dengan pembangunan modal manusia dan daya beli yang lebih tinggi secara konsisten mencatat tingkat kemiskinan yang jauh lebih rendah.',
+      'Infrastruktur Dasar Mendorong Standar Hidup: Akses yang memadai terhadap AirMinum dan Sanitasi berkorelasi positif dengan UHH dan berkorelasi negatif dengan Kemiskinan.',
+    ],
+    workflow: [
+      { title: 'Audit & Pembersihan Data', desc: 'Mengidentifikasi dan memperbaiki 16 data duplikat serta mengoreksi kesalahan input ekstrem pada Kota Medan (Kemiskinan dikoreksi dari 834,00% menjadi 8,34%).' },
+      { title: 'Imputasi Nilai Hilang', desc: 'Menangani nilai yang hilang dengan ukuran pemusatan data (imputasi rata rata untuk IPM, Sanitasi, dan AirMinum; imputasi median untuk UHH), sehingga tidak ada nilai null tersisa.' },
+      { title: 'Penanganan Outlier', desc: 'Mendeteksi dan menyaring anomali dengan metode Interquartile Range (IQR) pada Pengeluaran, Kemiskinan, dan TPT, menghasilkan 423 data yang bersih dan tervalidasi.' },
+      { title: 'Exploratory Data Analysis (EDA)', desc: 'Melakukan analisis korelasi multivariat menggunakan matriks korelasi Pearson beserta heatmap Seaborn dan Matplotlib.' },
+    ],
+    skillsDemo: [
+      'Dampak Pengeluaran & IPM: Pengeluaran dan IPM menunjukkan korelasi negatif yang signifikan secara statistik dengan Kemiskinan; wilayah dengan pembangunan modal manusia dan daya beli yang lebih tinggi secara konsisten mencatat tingkat kemiskinan yang jauh lebih rendah.',
+      'Infrastruktur Dasar Mendorong Standar Hidup: Akses yang memadai terhadap AirMinum dan Sanitasi berkorelasi positif dengan UHH dan berkorelasi negatif dengan Kemiskinan.',
+      'Integritas Data Penting untuk Keputusan Kebijakan: Validasi ketat terhadap kesalahan input dan outlier ekstrem pada Pengeluaran, Kemiskinan, dan TPT mencegah kemiringan statistik, sehingga rekomendasi kebijakan tetap andal sesuai standar sertifikasi.',
+    ],
+    techStack: {
+      Languages: ['Python'],
+      'Algorithms & Methods': ['Pandas', 'Matplotlib', 'Seaborn'],
+      Tools: ['Looker Studio'],
+    },
+    image: '/Screenshot 2026-10-29 212822.png',
+  },
+  {
+    id: 3,
     category: 'Mobile Development',
     year: '2026',
     title: 'App CariesDetect - Deteksi & Klasifikasi Tingkat Karies Gigi Otomatis',
@@ -211,7 +245,7 @@ export const projects = [
     image: '/iPhone 16 Pro.png',
   },
   {
-    id: 3,
+    id: 4,
     category: 'Full-Stack Web Development',
     year: '2026',
     title: 'TONELLA - Toner Online Logging and Analytics Application',
@@ -243,7 +277,7 @@ export const projects = [
     image: '/macbook-air-2022-2.png',
   },
   {
-    id: 4,
+    id: 5,
     category: 'Web Development',
     year: '2025',
     title: 'Belajar Budaya Indonesia',
@@ -273,7 +307,7 @@ export const projects = [
     image: '/MacBook Air (2022).png',
   },
   {
-    id: 5,
+    id: 6,
     category: 'Web Development',
     year: '2025',
     title: 'Rumah Impian - Website Properti',
@@ -302,7 +336,7 @@ export const projects = [
     image: '/Dell XPS.png',
   },
   {
-    id: 6,
+    id: 7,
     category: 'Full-Stack Web Development',
     year: '2025',
     title: 'BeanZm - Platform E-Commerce Distributor Biji Kopi',
@@ -426,7 +460,7 @@ export const workExperiences = [
       'Menyusun dokumentasi teknis kode program, mendampingi User Acceptance Test (UAT) bersama pengguna, serta menyerahkan laporan akhir.',
     ],
     tags: ['CodeIgniter 3', 'PHP', 'MySQL', 'Tailwind CSS', 'UI/UX', 'System Analysis'],
-    projectRef: '#project-card-3'
+    projectRef: '#project-card-4'
   },
 ];
 
