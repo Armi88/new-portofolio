@@ -70,7 +70,7 @@ export default function Marquee() {
                 View Work →
               </a>
               <a
-                href="https://drive.google.com/file/d/1yuOHnDcsvhaIcTop2uBXovdRfqCsm3NM/view?usp=sharing"
+                href="https://drive.google.com/file/d/1MvWMn6Gdg_aZQufD-lBlXTc0karZq8P9/view?usp=sharing"
                 className="bio-btn-outline"
                 target="_blank"
                 rel="noopener noreferrer"

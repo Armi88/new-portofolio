@@ -241,7 +241,7 @@ export default function Navbar() {
 
         <div className="mobile-menu-footer">
           <a
-            href="https://drive.google.com/file/d/1lnmfub_-Eg6C7Xl7FowQrIONa4D27cCu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1MvWMn6Gdg_aZQufD-lBlXTc0karZq8P9/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="mobile-menu-cv-btn"
